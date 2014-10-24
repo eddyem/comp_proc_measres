@@ -1,0 +1,82 @@
+\documentclass[a4paper,14pt,twoside,titlepage]{extarticle}
+\usepackage{/Data/ed,verbatim,lineno}
+\title{\Large\bf Компьютерная обработка\\ результатов измерения\\[10pt]
+\large учебное пособие}
+\newcommand{\Section}[2]{\setcounter{section}{0}\clearpage\begin{center}\Large\bf
+#1\end{center}\markboth{#2}{#2}\addcontentsline{toc}{part}{#1}\gdef\SecName{#2}}
+\newcommand{\emptysection}[1]{\section*{#1}\markboth{#1}{#1}\addcontentsline{toc}{section}{#1}}
+\newcommand{\lr}[2][\relax]{\normalfont\ifx#1\relax\Section{#2}{#2}\else\Section{#2}{#1}\fi\section{
+Теоретические сведения}\markboth{\SecName~(теория)}{\SecName~(теория)}}
+\newcommand{\pract}{\normalfont\section{Практическое
+применение}\markboth{\SecName~(практика)}{\SecName~(практика)}}
+\newcommand{\self}{\normalfont\section{Задания для самостоятельного выполнения}%
+\markboth{\SecName~(задания)}{\SecName~(задания)}}
+\renewcommand{\qwest}{\normalfont\section{Контрольные вопросы}%
+\markboth{\SecName~(вопросы)}{\SecName~(вопросы)}}
+\newcommand{\addition}{\normalfont\section{Дополнительные материалы}%
+\markboth{\SecName~(доп.)}{\SecName~(доп.)}\small}
+\newcommand{\next}{\smallskip\par\hspace{-1.2cm}\hbox to  0pt{\green{$\blacktriangleright$}}%
+\hspace{1.4cm}}
+\renewcommand{\Int}{\int\limits}
+\renewcommand{\Infint}{\int\limits_{-\infty}^\infty}
+\renewcommand{\Oint}{\oint\limits}
+
+\usepackage{listings}
+\lstset{basicstyle=\small\ttfamily\color{darkgray},breaklines=true,language=Octave,
+	extendedchars=true,aboveskip=1em,belowcaptionskip=5pt,
+	prebreak=\hbox{\normalfont\small\hfill{\ensuremath{\hookleftarrow}}},
+	postbreak=\hbox to 0pt{\hss\normalfont\small{\ensuremath{\hookrightarrow}}\hspace{1ex}},
+	commentstyle=\itshape\color{gray},showspaces=false,
+	showstringspaces=false,stringstyle=\color{blue},
+	numbers=left,numberstyle=\tiny,stepnumber=2,
+	keywordstyle=\color{black},escapeinside={/*@}{@*/},mathescape,
+	frameround=tttt,frame=trBL,tabsize=4}
+\lstloadlanguages{Octave}
+\def\lstlistingname{Листинг}
+\def\lstref#1{(см.~листинг~\ref{#1})}
+
+\newcommand{\listing}[2]{\lstinputlisting[#1]{Samples/#2}} % сокращение для листингов
+
+
+%\hoffset=11mm % раскомментировать для печати
+%\voffset=1cm  % буклетом и убрать noprint
+\usepackage[noprint,largetypeblock]{booklet}
+\setdvipstargetpages
+%\setpdftargetpages
+%\pagespersignature{32}
+% \textwidth=17.5cm
+% \oddsidemargin=5mm
+% \evensidemargin=5mm
+% \topmargin=0cm%-1.5cm
+% \textheight=24.5cm
+%\renewcommand{\baselinestretch}{1.2}
+
+\includeonly{pr,01,02}
+\raggedbottom
+\date{}
+\makeindex
+\nofoot
+\begin{document}
+\maketitle
+\tableofcontents
+\include{pr}
+\include{01}
+\include{02}
+\include{03}
+\include{04}
+\include{05}
+\include{06}
+\include{07}
+\include{exam}
+\include{supp}
+\include{liter}
+\clearpage
+\markboth{Предметный указатель}{Предметный указатель}
+\addcontentsline{toc}{section}{Предметный указатель}
+%\input{main.ind}
+%\tirazh{1}
+%\podpech{32.13.00}
+%\uchizdl{4.29}
+%\zakaz{00000}
+%\backpage
+\end{document}

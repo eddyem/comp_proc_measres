@@ -1,0 +1,11 @@
+*~
+*.log
+*.synctex.gz
+*.pdf
+*.backup
+*.aux
+*.kilepr
+*.dvi
+*.log
+Lectures/*
+.hg*
