@@ -1,0 +1,108 @@
+\begin{theindex}
+
+  \item Белый шум, 18
+
+  \indexspace
+
+  \item Вероятность, 10
+
+  \indexspace
+
+  \item График, 5
+
+  \indexspace
+
+  \item Дискретизация, 8
+  \item Дисперсия, 12
+
+  \indexspace
+
+  \item Закон
+    \subitem больших чисел, 12
+    \subitem распределения, 13
+  \item Зашумление, 7
+
+  \indexspace
+
+  \item Измерение, 4
+  \item Изображение, 8
+  \item Интеграл Римана, 15
+
+  \indexspace
+
+  \item Квантование, 8
+  \item Ковариация, 17
+  \item Коэффициент
+    \subitem корреляции, 17
+
+  \indexspace
+
+  \item Математическое ожидание, 11
+  \item Медиана, 12
+  \item Мода, 12
+  \item Момент, 12
+
+  \indexspace
+
+  \item Неравенство Чебыш\"ева, 11
+  \item Несовместные события, 10
+  \item Нормировка, 13
+
+  \indexspace
+
+  \item Отношение сигнал/шум, 20
+
+  \indexspace
+
+  \item Плотность вероятности, 10
+  \item Погрешность измерения, 4
+  \item Преобразование
+    \subitem аналогово--цифровое, 8
+    \subitem цифро--аналоговое, 8
+  \item Псевдослучайное число, 28
+
+  \indexspace
+
+  \item Распределение
+    \subitem биномиальное, 14
+    \subitem нормальное, 15
+    \subitem Пуассона, 15
+    \subitem равномерное, 13
+    \subitem экспоненциальное, 16
+
+  \indexspace
+
+  \item Сигнал, 7
+    \subitem аналоговый, 7
+    \subitem дискретный, 7
+    \subitem цифровой, 7
+  \item Случайная величина, 10
+    \subitem дискретная, 10
+    \subitem независимая, 11
+    \subitem непрерывная, 10
+  \item Сообщение, 6
+  \item Среднее арифметическое, 11
+  \item Среднее квадратическое отклонение, 12
+  \item Средства измерений, 4
+
+  \indexspace
+
+  \item Таблица, 5
+  \item Теорема
+    \subitem Бернулли, 12
+    \subitem Котельникова--Найквиста, 8
+    \subitem Чебыш\"ева, 12
+
+  \indexspace
+
+  \item Формула Бернулли, 14
+  \item Функция
+    \subitem автокорреляционная, 17
+    \subitem распределения, 13
+
+  \indexspace
+
+  \item Шум, 18
+    \subitem квантования, 8
+
+\end{theindex}

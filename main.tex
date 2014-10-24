@@ -1,5 +1,5 @@
 \documentclass[a4paper,14pt,twoside,titlepage]{extarticle}
-\usepackage{/Data/ed,verbatim,lineno}
+\usepackage{ed,verbatim,lineno}
 \title{\Large\bf Компьютерная обработка\\ результатов измерения\\[10pt]
 \large учебное пособие}
 \newcommand{\Section}[2]{\setcounter{section}{0}\clearpage\begin{center}\Large\bf
@@ -15,7 +15,7 @@
 \markboth{\SecName~(вопросы)}{\SecName~(вопросы)}}
 \newcommand{\addition}{\normalfont\section{Дополнительные материалы}%
 \markboth{\SecName~(доп.)}{\SecName~(доп.)}\small}
-\newcommand{\next}{\smallskip\par\hspace{-1.2cm}\hbox to  0pt{\green{$\blacktriangleright$}}%
+\def\next{\smallskip\par\hspace{-1.2cm}\hbox to  0pt{\green{$\blacktriangleright$}}%
 \hspace{1.4cm}}
 \renewcommand{\Int}{\int\limits}
 \renewcommand{\Infint}{\int\limits_{-\infty}^\infty}
