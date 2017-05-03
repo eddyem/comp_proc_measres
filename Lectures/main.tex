@@ -1,0 +1,71 @@
+\documentclass[a4paper,12pt,twoside,titlepage]{article}
+\usepackage[14pt]{extsizes}
+\usepackage{../ed,verbatim,lineno}
+\title{\Large\bf Компьютерная обработка\\ результатов измерения\\[10pt]
+\large учебное пособие (сборник лекций)}
+\newcommand{\lr}[1]{%{\hbox to 0pt{\vspace*{-\kegle}\hbox to \textwidth{\hss\bf%
+%Компьютерная обработка и статистические методы, лекции\hss}\vspace*{-\kegle}}
+%\textcolor{green!50!blue!50!black}{
+\section{#1}}%\nopagebreak}}
+
+%\newcommand{\theory}{\vspace{1pt plus \fill}{{\subsection{Краткие теоретические
+%сведения}}\nopagebreak\noindent}\nopagebreak}
+% \newcommand{\pract}{\vspace{1pt plus \fill}{{\subsection{Примеры практических
+% заданий}}\nopagebreak\noindent}\nopagebreak}
+% \newcommand{\self}{\vspace{1pt plus \fill}{{\subsection{Задания для самостоятельного
+% выполнения}}\nopagebreak\noindent}\nopagebreak}
+% \renewcommand{\qwest}{\vspace{1pt plus \fill}{{\subsection{Контрольные вопросы}}\nopagebreak\noindent}\nopagebreak}
+\def\next{\smallskip\par\hspace{-1.2cm}\hbox to  0pt{\green{$\blacktriangleright$}}%
+\dev\No{\textnumero}
+\hspace{1.4cm}}
+\renewcommand{\Int}{\int\limits}
+\renewcommand{\Infint}{\int\limits_{-\infty}^\infty}
+\renewcommand{\Oint}{\oint\limits}
+
+%\hoffset=11mm % раскомментировать для печати
+%\voffset=1cm  % буклетом и убрать noprint
+\usepackage[noprint,largetypeblock]{booklet}
+\setdvipstargetpages
+%\setpdftargetpages
+%\pagespersignature{32}
+% \textwidth=17.5cm
+% \oddsidemargin=5mm
+% \evensidemargin=5mm
+% \topmargin=0cm%-1.5cm
+% \textheight=24.5cm
+\renewcommand{\baselinestretch}{1.2}
+
+%\includeonly{01}
+\raggedbottom
+\date{}
+\makeindex
+\nofoot
+\begin{document}
+\metodtitle
+\tableofcontents
+\include{pz}
+\include{01}
+\include{02}
+\include{03}
+\include{04}
+\include{05}
+\include{06}
+\include{07}
+\include{exam}
+\include{supp}
+\include{liter}
+\clearpage
+\markboth{Предметный указатель}{Предметный указатель}
+\addcontentsline{toc}{section}{Предметный указатель}
+\input{main.ind}
+\tirazh{1}
+\podpech{32.13.00}
+\uchizdl{4.29}
+\zakaz{00000}
+\backpage
+%\clearpage\ 
+%\pagestyle{empty}
+%\clearpage\ 
+%\clearpage\ 
+%\back
+\end{document}
